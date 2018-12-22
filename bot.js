@@ -10,7 +10,7 @@ bot.on('ready', () => {
             type: 0
         }
     });
-});
+});	
 
 bot.on('message', message => {
 if(message.content.toLowerCase() === '!strona')
@@ -23,3 +23,5 @@ if(message.content.toLowerCase() === '!nitro')
 });
 
 bot.login(process.env.B0T_T0KEN);
+
+    
