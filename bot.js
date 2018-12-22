@@ -3,7 +3,7 @@ var bot = new Discord.Client();
 var client = new Discord.Client();
 
 bot.on('ready', () => {
-    bot.user.setStatus('online')
+    bot.user.setStatus('dnd')
     bot.user.setPresence({
         game: {
             name: 'DARMOWY KOD NA NITRO NA MIESIĄC! ➫ !nitro',
