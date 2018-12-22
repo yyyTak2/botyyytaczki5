@@ -6,15 +6,15 @@ bot.on('ready', () => {
     bot.user.setStatus('dnd')
     bot.user.setPresence({
         game: {
-            name: '〽️Bot do Testów〽️',
+            name: '!strona',
             type: 0
         }
     });
 });
 
 bot.on('message', message => {
-if(message.content.toLowerCase() === 'asddsaaw23')
-   message.channel.send('Przyjdę do cb zaraz i zgwałce ci dom ❤️');
+if(message.content.toLowerCase() === '!strona')
+   message.channel.send('**Link do strony serwera ➫ https://olekmajewski321.wixsite.com/discord**');
     
 });
 
