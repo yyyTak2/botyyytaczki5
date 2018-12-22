@@ -15,6 +15,10 @@ bot.on('ready', () => {
 bot.on('message', message => {
 if(message.content.toLowerCase() === '!nitro')
    message.channel.send('**Kod niedługo dostępny!**');
+
+bot.on('message', message => {
+if(message.content.toLowerCase() === '!strona')
+   message.channel.send('**Link do strony serwera ➫ https://olekmajewski321.wixsite.com/discord**');
     
 });
 
