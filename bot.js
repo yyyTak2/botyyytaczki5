@@ -6,7 +6,7 @@ bot.on('ready', () => {
     bot.user.setStatus('dnd')
     bot.user.setPresence({
         game: {
-            name: 'DARMOWY KOD NA NITRO NA MIESIĄC!➡️!nitro',
+            name: 'DARMOWY KOD NA NITRO NA MIESIĄC! 🔥!nitro🔥',
             type: 0
         }
     });
