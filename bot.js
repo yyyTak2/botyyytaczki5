@@ -1,6 +1,3 @@
-var Discord = require('discord.js');
-var bot = new Discord.Client();
-var client = new Discord.Client();
 const Command = require("../../lib/structures/KlasaCommand");
 const { get } = require("snekfetch");
 const { MessageEmbed } = require("discord.js");
@@ -9,18 +6,12 @@ bot.on('ready', () => {
     bot.user.setStatus('dnd')
     bot.user.setPresence({
         game: {
-            name: '🍌 Huehuehue 💰',
+            name: 'lilz',
             type: 0
         }
     });
 });	
 
-bot.on('message', message => {
-if(message.content.toLowerCase() === '!nitro')
-   message.channel.send('**Kod niedługo dostępny!**');
-    
-});
-   
 module.exports = class extends Command {
 
     constructor(...args) {
