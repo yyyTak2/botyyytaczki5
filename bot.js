@@ -2,7 +2,7 @@ var Discord = require('discord.js');
 var bot = new Discord.Client();
 var client = new Discord.Client();
 
-const activities_list = [
+var activities_list = [
     "with the &help command.", 
     "with the developers console",
     "with some code", 
